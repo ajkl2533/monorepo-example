@@ -1,3 +1,15 @@
+# v0.1.1 (Mon Jun 26 2023)
+
+#### ⚠️ Pushed to `main`
+
+- feat(auto): update configuration ([@ajkl2533](https://github.com/ajkl2533))
+
+#### Authors: 1
+
+- Radek Podrazky ([@ajkl2533](https://github.com/ajkl2533))
+
+---
+
 # v0.1.0 (Mon Jun 26 2023)
 
 #### 🚀 Enhancement
