@@ -34,5 +34,6 @@
       "conventional-commits",
       "released"
     ]
-  }
+  },
+  "version": "0.1.0"
 }
