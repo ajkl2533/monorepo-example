@@ -1,6 +1,6 @@
 {
   "name": "monorepo-example",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "ajkl2533/monorepo-example",
   "author": "ajkl2533 <radek.podrazky@gmail.com>",
   "workspaces": [
