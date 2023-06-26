@@ -1,22 +1,38 @@
 {
-  "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "auto shipit"
   },
   "devDependencies": {
+    "@auto-it/conventional-commits": "^10.46.0",
+    "@auto-it/npm": "^10.46.0",
+    "@auto-it/released": "^10.46.0",
     "@turbo/gen": "^1.9.7",
+    "auto": "^10.46.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "prettier": "^2.5.1",
-    "turbo": "latest"
+    "turbo": "^1.10.6"
   },
   "name": "monorepo-example",
   "packageManager": "yarn@3.6.0",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "global": "^4.4.0"
+  },
+  "repository": "ajkl2533/monorepo-example",
+  "author": "ajkl2533 <radek.podrazky@gmail.com>",
+  "auto": {
+    "plugins": [
+      "npm",
+      "conventional-commits",
+      "released"
+    ]
+  }
 }

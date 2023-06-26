@@ -1,3 +1,5 @@
+# THIS IS TESTING PACKAGE NOT MEANT TO BE USED OR USEFULL TO ANYONE
+
 # Turborepo starter
 
 This is an official starter Turborepo.
