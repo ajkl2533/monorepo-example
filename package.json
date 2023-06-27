@@ -5,12 +5,12 @@
     "packages/*"
   ],
   "scripts": {
-    "start:vite-common": "lerna run --scope vite-common storybook --stream",
+    "start:vite-common": "nx storybook vite-common",
     "build:vite-common": "lerna run --scope vite-common build --stream",
     "test:vite-common": "lerna run --scope vite-common test --stream",
     "start:vite-body": "lerna run --scope vite-body storybook --stream",
     "build-storybook:vite-common": "lerna run --scope vite-common build-storybook --stream",
-    "build": "lerna run build --stream",
+    "build": "nx run-many -t build",
     "test": "NODE_ENV=test jest --coverage"
   },
   "dependencies": {
@@ -45,6 +45,8 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "lerna": "^7.1.0",
+    "nx": "latest",
+    "nx-cloud": "latest",
     "path": "^0.12.7",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
