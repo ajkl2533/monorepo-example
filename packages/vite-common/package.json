@@ -1,7 +1,7 @@
 {
   "name": "@radekpodrazky/vite-common",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@radekpodrazky/design-tokens": "^1.2.0"
+    "@radekpodrazky/design-tokens": "^1.2.1"
   },
   "publishConfig": {
     "access": "restricted",

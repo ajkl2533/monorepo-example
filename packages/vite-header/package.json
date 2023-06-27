@@ -1,7 +1,7 @@
 {
   "name": "@radekpodrazky/vite-header",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@radekpodrazky/vite-common": "^0.4.0"
+    "@radekpodrazky/vite-common": "^0.4.1"
   },
   "publishConfig": {
     "access": "restricted",

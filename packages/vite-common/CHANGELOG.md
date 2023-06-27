@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/ajkl2533/monorepo-example/compare/@radekpodrazky/vite-common@0.4.0...@radekpodrazky/vite-common@0.4.1) (2023-06-27)
+
+**Note:** Version bump only for package @radekpodrazky/vite-common
+
 # 0.4.0 (2023-06-27)
 
 ### Bug Fixes

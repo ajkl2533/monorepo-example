@@ -1,3 +1,3 @@
 export default function designTokens() {
-  return 'Hello from designTokens';
+  return 'Hello from designTokens!';
 }
