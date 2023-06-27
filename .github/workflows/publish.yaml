@@ -19,28 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          registry-url: https://npm.pkg.github.com/
-
-      - name: Cache yarn files
-        uses: actions/cache@v3
-        id: cache
-        with:
-          path: |
-            .yarn/cache
-            .yarn/install-state.gz
-            node_modules
-          key: ${{ runner.os }}-node-18-${{ hashFiles('**/yarn.lock', '**/package.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-18-${{ env.cache-name }}-
-            ${{ runner.os }}-node-${{ env.cache-name }}-
-            ${{ runner.os }}-node-
-            ${{ runner.os }}-
-
-      - name: Install Packages
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install --immutable
 
       - name: Publish
         env:
@@ -50,6 +28,6 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          yarn lerna version --no-private --yes
-          yarn lerna publish from-git --yes
+          npx lerna version --no-private --yes
+          npx lerna publish from-git --yes
 
