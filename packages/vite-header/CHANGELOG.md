@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/ajkl2533/monorepo-example/compare/vite-header@0.1.0...vite-header@0.1.1) (2023-06-27)
+
+### Bug Fixes
+
+- fix package and ts configuration ([37280a0](https://github.com/ajkl2533/monorepo-example/commit/37280a04cfc208df31d5369e662a8fcd769c17d2))
+
 # 0.1.0 (2023-06-26)
 
 ### Features
