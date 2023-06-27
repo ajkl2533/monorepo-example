@@ -2979,7 +2979,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radekpodrazky/design-tokens@*, @radekpodrazky/design-tokens@workspace:packages/design-tokens":
+"@radekpodrazky/design-tokens@^1.2.0, @radekpodrazky/design-tokens@workspace:packages/design-tokens":
   version: 0.0.0-use.local
   resolution: "@radekpodrazky/design-tokens@workspace:packages/design-tokens"
   languageName: unknown
@@ -2989,15 +2989,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@radekpodrazky/vite-body@workspace:packages/vite-body"
   dependencies:
-    "@radekpodrazky/vite-common": "*"
+    "@radekpodrazky/vite-common": ^0.4.0
   languageName: unknown
   linkType: soft
 
-"@radekpodrazky/vite-common@*, @radekpodrazky/vite-common@workspace:packages/vite-common":
+"@radekpodrazky/vite-common@^0.4.0, @radekpodrazky/vite-common@workspace:packages/vite-common":
   version: 0.0.0-use.local
   resolution: "@radekpodrazky/vite-common@workspace:packages/vite-common"
   dependencies:
-    "@radekpodrazky/design-tokens": "*"
+    "@radekpodrazky/design-tokens": ^1.2.0
   languageName: unknown
   linkType: soft
 
@@ -3005,7 +3005,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@radekpodrazky/vite-footer@workspace:packages/vite-footer"
   dependencies:
-    "@radekpodrazky/vite-common": "*"
+    "@radekpodrazky/vite-common": ^0.4.0
   languageName: unknown
   linkType: soft
 
@@ -3013,7 +3013,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@radekpodrazky/vite-header@workspace:packages/vite-header"
   dependencies:
-    "@radekpodrazky/vite-common": "*"
+    "@radekpodrazky/vite-common": ^0.4.0
   languageName: unknown
   linkType: soft
 

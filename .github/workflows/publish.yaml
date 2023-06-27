@@ -50,5 +50,6 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          yarn lerna publish --conventional-commits --conventional-graduate --yes --create-release github
+          yarn lerna version --yes
+          yarn lerna publish from-git --yes
 
