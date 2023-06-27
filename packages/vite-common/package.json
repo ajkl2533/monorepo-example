@@ -1,5 +1,5 @@
 {
-  "name": "vite-common",
+  "name": "@ajkl2533/vite-common",
   "private": true,
   "version": "0.3.0",
   "type": "module",
@@ -12,7 +12,14 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@ajkl2533/design-tokens": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/ajkl2533/monorepo-example",
+    "directory": "packages/vite-common",
+    "type": "git"
   }
 }

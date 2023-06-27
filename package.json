@@ -60,5 +60,9 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/ajkl2533/monorepo-example",
+    "type": "git"
   }
 }

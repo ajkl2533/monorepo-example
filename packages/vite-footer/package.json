@@ -1,5 +1,5 @@
 {
-  "name": "vite-footer",
+  "name": "@ajkl2533/vite-footer",
   "private": true,
   "version": "0.1.2",
   "type": "module",
@@ -12,6 +12,14 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "vite-common": "*"
+    "@ajkl2533/vite-common": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/ajkl2533/monorepo-example",
+    "directory": "packages/vite-footer",
+    "type": "git"
   }
 }

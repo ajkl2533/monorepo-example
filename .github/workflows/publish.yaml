@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  checks:
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,23 @@ jobs:
           node-version: '18'
           registry-url: https://npm.pkg.github.com/
 
+      - name: Cache yarn files
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: |
+            .yarn/cache
+            .yarn/install-state.gz
+            node_modules
+          key: ${{ runner.os }}-node-18-${{ hashFiles('**/yarn.lock', '**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-18-${{ env.cache-name }}-
+            ${{ runner.os }}-node-${{ env.cache-name }}-
+            ${{ runner.os }}-node-
+            ${{ runner.os }}-
+
       - name: Install Packages
+        if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --immutable
 
       - name: Publish
@@ -31,6 +47,5 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor}}@users.noreply.github.com"
 
-          yarn lerna version --conventional-commits --conventional-graduate --yes
-          yarn lerna publish from-git --yes
+          yarn lerna publish --conventional-commits --conventional-graduate --yes --create-release github
 

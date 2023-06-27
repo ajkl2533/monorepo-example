@@ -12,6 +12,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ajkl2533/design-tokens@*, @ajkl2533/design-tokens@workspace:packages/design-tokens":
+  version: 0.0.0-use.local
+  resolution: "@ajkl2533/design-tokens@workspace:packages/design-tokens"
+  languageName: unknown
+  linkType: soft
+
+"@ajkl2533/vite-body@workspace:packages/vite-body":
+  version: 0.0.0-use.local
+  resolution: "@ajkl2533/vite-body@workspace:packages/vite-body"
+  dependencies:
+    "@ajkl2533/vite-common": "*"
+  languageName: unknown
+  linkType: soft
+
+"@ajkl2533/vite-common@*, @ajkl2533/vite-common@workspace:packages/vite-common":
+  version: 0.0.0-use.local
+  resolution: "@ajkl2533/vite-common@workspace:packages/vite-common"
+  dependencies:
+    "@ajkl2533/design-tokens": "*"
+  languageName: unknown
+  linkType: soft
+
+"@ajkl2533/vite-footer@workspace:packages/vite-footer":
+  version: 0.0.0-use.local
+  resolution: "@ajkl2533/vite-footer@workspace:packages/vite-footer"
+  dependencies:
+    "@ajkl2533/vite-common": "*"
+  languageName: unknown
+  linkType: soft
+
+"@ajkl2533/vite-header@workspace:packages/vite-header":
+  version: 0.0.0-use.local
+  resolution: "@ajkl2533/vite-header@workspace:packages/vite-header"
+  dependencies:
+    "@ajkl2533/vite-common": "*"
+  languageName: unknown
+  linkType: soft
+
 "@ampproject/remapping@npm:^2.2.0":
   version: 2.2.1
   resolution: "@ampproject/remapping@npm:2.2.1"
@@ -6481,12 +6519,6 @@ __metadata:
   checksum: 8679b850e1a3d0ebbc46ee780d5df7b478c23f335887464023a631d1b9af051ad4a6595a44220f9ff8ff95a8ddccf019b5ad778a976fd7bbf77383d36f412f90
   languageName: node
   linkType: hard
-
-"design-tokens@workspace:packages/design-tokens":
-  version: 0.0.0-use.local
-  resolution: "design-tokens@workspace:packages/design-tokens"
-  languageName: unknown
-  linkType: soft
 
 "destroy@npm:1.2.0":
   version: 1.2.0
@@ -13800,39 +13832,6 @@ __metadata:
   checksum: ae0123222c6df65b437669d63dfa8c36cee20a504101b2fcd97b8bf76f91259c17f9f2b4d70a1e3c6bbcee7f51b28392833adb6b2770b23b01abec84e369660b
   languageName: node
   linkType: hard
-
-"vite-body@workspace:packages/vite-body":
-  version: 0.0.0-use.local
-  resolution: "vite-body@workspace:packages/vite-body"
-  dependencies:
-    vite-common: "*"
-  languageName: unknown
-  linkType: soft
-
-"vite-common@*, vite-common@workspace:packages/vite-common":
-  version: 0.0.0-use.local
-  resolution: "vite-common@workspace:packages/vite-common"
-  dependencies:
-    react: ^18.2.0
-    react-dom: ^18.2.0
-  languageName: unknown
-  linkType: soft
-
-"vite-footer@workspace:packages/vite-footer":
-  version: 0.0.0-use.local
-  resolution: "vite-footer@workspace:packages/vite-footer"
-  dependencies:
-    vite-common: "*"
-  languageName: unknown
-  linkType: soft
-
-"vite-header@workspace:packages/vite-header":
-  version: 0.0.0-use.local
-  resolution: "vite-header@workspace:packages/vite-header"
-  dependencies:
-    vite-common: "*"
-  languageName: unknown
-  linkType: soft
 
 "vite@npm:^4.3.9":
   version: 4.3.9
