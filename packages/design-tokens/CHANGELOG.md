@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/ajkl2533/monorepo-example/compare/@radekpodrazky/design-tokens@1.2.4...@radekpodrazky/design-tokens@1.2.5) (2023-06-27)
+
+### Bug Fixes
+
+- change string ([c001520](https://github.com/ajkl2533/monorepo-example/commit/c001520242970a95df25496677a4dc8e2b2423b6))
+
 ## [1.2.4](https://github.com/ajkl2533/monorepo-example/compare/@radekpodrazky/design-tokens@1.2.3...@radekpodrazky/design-tokens@1.2.4) (2023-06-27)
 
 ### Bug Fixes
