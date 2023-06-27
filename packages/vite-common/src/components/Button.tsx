@@ -6,5 +6,5 @@ export interface ButtonProps {
 }
 
 export default ({children, onClick}: ButtonProps) => (
-  <button type="button" onClick={onClick}>{children}</button>
+  <button className="fancy-button" type="button" onClick={onClick}>{children}</button>
 )
