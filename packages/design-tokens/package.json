@@ -1,0 +1,28 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Radek Podrazky <rpodrazky@securityscorecard.io>",
+  "homepage": "https://github.com/ajkl2533/monorepo-example#readme",
+  "license": "UNLICENSED",
+  "main": "design-tokens.js",
+  "module": "design-tokens.mjs",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkl2533/monorepo-example.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/design-tokens.test.js"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ajkl2533/monorepo-example/issues"
+  }
+}
