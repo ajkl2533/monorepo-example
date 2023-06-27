@@ -3,7 +3,6 @@
   "version": "independent",
   "npmClient": "yarn",
   "useNx": true,
-  "registry": "https://npm.pkg.github.com",
   "command": {
     "version": {
       "allowBranch": "main",

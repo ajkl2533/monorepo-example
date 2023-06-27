@@ -59,7 +59,8 @@
     "vite": "^4.3.9"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "url": "https://github.com/ajkl2533/monorepo-example",

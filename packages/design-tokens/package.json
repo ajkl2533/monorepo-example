@@ -1,5 +1,5 @@
 {
-  "name": "@ajkl2533/design-tokens",
+  "name": "@radekpodrazky/design-tokens",
   "version": "1.1.1",
   "description": "> TODO: description",
   "author": "Radek Podrazky <rpodrazky@securityscorecard.io>",
@@ -22,7 +22,8 @@
     "url": "https://github.com/ajkl2533/monorepo-example/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "url": "https://github.com/ajkl2533/monorepo-example",

@@ -1,5 +1,5 @@
 {
-  "name": "@ajkl2533/vite-body",
+  "name": "@radekpodrazky/vite-body",
   "private": true,
   "version": "0.1.2",
   "type": "module",
@@ -12,10 +12,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@ajkl2533/vite-common": "*"
+    "@radekpodrazky/vite-common": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "url": "https://github.com/ajkl2533/monorepo-example",
