@@ -9,6 +9,7 @@
     "build:vite-common": "lerna run --scope vite-common build --stream",
     "test:vite-common": "lerna run --scope vite-common test --stream",
     "start:vite-body": "lerna run --scope vite-body storybook --stream",
+    "build-storybook:vite-common": "lerna run --scope vite-common build-storybook --stream",
     "build": "lerna run build --stream",
     "test": "NODE_ENV=test jest --coverage"
   },
