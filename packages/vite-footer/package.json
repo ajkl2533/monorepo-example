@@ -12,6 +12,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "vite-common": "^0.3.0"
+    "vite-common": "*"
   }
 }
